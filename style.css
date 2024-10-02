@@ -38,3 +38,29 @@ h2
     align-items: center;
     justify-content: center;
 }
+
+.time span:nth-child(1)
+{
+    width: 150px;
+    height: 50px;
+    color: #faf8f8;
+    background-color: blue;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.time:nth-of-type(2) span:nth-child(1)
+{
+    background-color: chartreuse;
+}
+.time:nth-of-type(3) span:nth-child(1)
+{
+    background-color: rgb(241, 80, 80);
+}
+.time:nth-of-type(4) span:nth-child(1)
+{
+    background-color: rgb(67, 133, 231);
+}
+
