@@ -41,7 +41,7 @@ h2
 
 .time span:nth-child(1)
 {
-    width: 150px;
+    width: 180px;
     height: 50px;
     color: #faf8f8;
     background-color: blue;
@@ -53,14 +53,35 @@ h2
 
 .time:nth-of-type(2) span:nth-child(1)
 {
-    background-color: chartreuse;
+    background-color: rgb(184, 181, 50);
 }
 .time:nth-of-type(3) span:nth-child(1)
 {
-    background-color: rgb(241, 80, 80);
+    background-color: rgb(138, 46, 46);
 }
 .time:nth-of-type(4) span:nth-child(1)
 {
-    background-color: rgb(67, 133, 231);
+    background-color: rgb(44, 87, 153);
 }
 
+.time span:nth-child(2)
+{
+    font-size: 90px;
+    font-weight: 700;
+    height: 150px;
+    color: white;
+    background-color: rgb(85, 85, 248);
+}
+
+.time:nth-of-type(2) span:nth-child(2)
+{
+    background-color: rgb(247, 244, 70);
+}
+.time:nth-of-type(3) span:nth-child(2)
+{
+    background-color: rgb(241, 80, 8);
+}
+.time:nth-of-type(4) span:nth-child(2)
+{
+    background-color: rgb(67, 13, 231);
+}
