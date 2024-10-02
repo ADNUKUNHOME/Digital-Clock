@@ -37,6 +37,7 @@ h2
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #00000050);
 }
 
 .time span:nth-child(1)
@@ -53,7 +54,7 @@ h2
 
 .time:nth-of-type(2) span:nth-child(1)
 {
-    background-color: rgb(184, 181, 50);
+    background-color: rgb(72, 184, 50);
 }
 .time:nth-of-type(3) span:nth-child(1)
 {
@@ -75,7 +76,7 @@ h2
 
 .time:nth-of-type(2) span:nth-child(2)
 {
-    background-color: rgb(247, 244, 70);
+    background-color: rgb(99, 247, 70);
 }
 .time:nth-of-type(3) span:nth-child(2)
 {
